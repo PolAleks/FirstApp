@@ -4,10 +4,14 @@
     {
         static void Main(string[] args)
         {
-            string MyName = "Valera";
-            Console.WriteLine(MyName);
-            Console.WriteLine("\tПривет, мир\n\tМне 27 лет\n\tMy name is {0}",MyName);
-            Console.WriteLine("\u0023");
+            string MyName = "Александр";
+            byte Age = 40;
+            bool HaveIPet = true;
+            double ShoeSize = 26.5;
+            Console.WriteLine("Меня зовут {0}",MyName);
+            Console.WriteLine("Мне {0}", Age);
+            Console.WriteLine("У тебя есть питомец? {0}", HaveIPet);
+            Console.WriteLine("Размер вашей стопы: {0}", ShoeSize);
             Console.ReadKey();
         }
     }
