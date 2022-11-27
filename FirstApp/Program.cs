@@ -14,5 +14,11 @@
             Console.WriteLine("Размер вашей стопы: {0}", ShoeSize);
             Console.ReadKey();
         }
+        enum Semaphore
+        {
+            Red = 100,
+            Yellow = 200,
+            Green = 300
+        }
     }
 }
