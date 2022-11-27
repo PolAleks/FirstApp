@@ -9,9 +9,9 @@
             Console.Write("Enter your age: ");
             byte age = checked((byte)int.Parse(Console.ReadLine()));
             Console.WriteLine("Your name is {0} and age is {1}", name, age);
-            Console.Write("What your favorit day of week? ");
-            DayOfWeek day = (DayOfWeek)byte.Parse(Console.ReadLine());
-            Console.WriteLine("Your favorit day is {0}", day);
+            Console.Write("Enter your birthdate: ");
+            string birthdate = Console.ReadLine();
+            Console.WriteLine("Your birthdate is {0}", birthdate);
         }
         enum Semaphore
         {
